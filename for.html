@@ -1,0 +1,16 @@
+<meta charset="utf-8">
+<script>
+	
+var n;
+var years, proz, summ, ob;
+years=parseInt(prompt("На сколько лет вклад?"));
+proz=parseInt(prompt("Под какой процент?"));
+summ=parseInt(prompt("Сумма вклада?"));
+ob=summ;
+for (var i = 0; i < years; i++) {
+	n=(proz/100)*summ;
+	ob+=n;
+	alert(ob);
+}
+
+</script>>
